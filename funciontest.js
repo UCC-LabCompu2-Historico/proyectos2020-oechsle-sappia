@@ -1,3 +1,15 @@
+/**
+ * Created by Fran y lucas .
+ */
+
+/**
+ * Funcion  de calcular Notas.
+ * @method Resp.
+ * @param {srting} question - la pregunta.
+ * @param {srting} answer - La respuesta.
+ * @return
+ */
+
 var res=new Array;
 var no=new Array;
 var tures=new Array;
@@ -9,6 +21,7 @@ res[2]="a";
 res[3]="c";
 res[4]="b";
 res[5]="a";
+
 
 explicares[1]="Mal,la respuesta correcta es a";
 explicares[2]="Mal,la respuesta correcta es a";
