@@ -45,7 +45,8 @@ function Score(){
     if(calif>=5){
         answertext=answertext+"Excelente";
     }
-    alert(answertext);}
+    alert(answertext);
+}
 
 
 
@@ -53,8 +54,8 @@ function Score(){
 function db(posX, posY) {
 
 
-    var canvas = document.getElementById("myCanvas")
-    var ctx = canvas.getContext("2d")
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
 
     canvas.width = canvas.width;
 
@@ -77,8 +78,8 @@ dx=2;
 
 function a() {
 
-    var canvas = document.getElementById("myCanvas")
-    var ctx = canvas.getContext("2d")
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
 
     canvas.width = canvas.width;
 
@@ -88,12 +89,12 @@ function a() {
 
 
     img.onload = function(){
-        ctx.drawImage(img,x, 100)
+        ctx.drawImage(img,x, 100);
     }
 
     if (x>canvas.width){
 
-        x=0
+        x=0;
     }
     x+=dx;
 
