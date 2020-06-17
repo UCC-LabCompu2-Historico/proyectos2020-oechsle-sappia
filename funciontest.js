@@ -76,7 +76,7 @@ function db(posX, posY) {
 
 
     var img = new Image();
-    img.src = "images/hola.png";
+    img.src ="imageness/WhatsApp Image 2020-06-16 at 10.28.22 PM.png";
 
 
     img.onload = function(){
