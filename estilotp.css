@@ -1,3 +1,6 @@
+/Titulos/
+
+
 form{
     width: 100%;
 }
@@ -40,3 +43,36 @@ div{
     color: black;
     text-align: left;
 }
+
+footer{
+
+
+    text-align: right;
+}
+
+#foto{
+
+
+    height: 250px;
+
+}
+
+header{
+
+    text-align: right;
+    color: #081140;
+}
+
+
+
+#respuestass{
+
+
+    color: black;
+
+}
+
+header{
+
+    color: #081140;
+}}

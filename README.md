@@ -10,3 +10,9 @@ las preguntas a travez de un multiple choice.
 
 # Link
    - [Parcial] (https://ucc-labcompu2.github.io/proyectos2020-oechsle-sappia/)
+
+# Tecnologias:
+
+  - HTML 
+  - CCS
+  - JAVASCRIPT
