@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+<header>
+    <h4>Comunidad UCC</h4>
+</header>
 <head>
     <meta charset="UTF-8">
-    <title>Trabajo Práctico Lab. Computacion II</title>
+    <title>Evaluacion Laboratorio de Computacion</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="estilotp.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="funciontest.js"></script>
-
-
-
 </head>
-<body>
 
-<canvas id="myCanvas" class="ejer" width="1000px" height="500px">
+<body onload="setInterval(a, 10)">
 
-</canvas>
+
+
 
 <div>
 
@@ -24,7 +24,7 @@
 <div id="Evaluacion">
     <h3> <u>Auto-Evaluación de Práctica</u></h3>
 </div>
-<div >
+<div>
     <h5>
         Completar con tus datos para poder realizar el examen
     </h5>
@@ -105,14 +105,41 @@
             <p><input type="radio" name="R5" value="c" onclick="Resp(5,this.value)"/>c)Gitlab </p>
 
 
-            <br></div>
+            <br>
 
-        <input type="button"  name="RESULTADOS" value="RESULTADOS" onclick="Score()"/>
+            <input type="button"  name="RESULTADOS" value="RESULTADOS" onclick="Score()"/>
+        </div>
+
+
+
+    </form>
+    <div id="respuestass">
+        <div  id="porcentaje">
+            RESPUESTAS CORRECTAS: <input id="f1" type="text">
+            <button id="boton_porcentaje" onclick="Grafico(porcentaje())">Ver</button>
+        </div>
+
+
+        <h5>PORCENTAJE DE APROBACION</h5>
+        <canvas id="myCanvas" class="Canvas">
+
+        </canvas>
+        <canvas id="miCanvas4" class="ejer" width="400px" height="400px">
+
+        </canvas>
+    </div>
+</div>
+</div>
+
+</div>
 
 
 
 
 
 </body>
+<footer>
+    Copyright &copy; 2020 |Oechsle Sappia Proyectos 2020
+</footer>
 
 </html>
