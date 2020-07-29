@@ -90,11 +90,11 @@ function db(posX, posY) {
 
 
     var img = new Image();
-<<<<<<< HEAD
+
     img.src ="imageness/Test.png";
-=======
-    img.src ="imageness/test.png";
->>>>>>> ad2a3be37b3cc68a6b3b23eb4756d032b773ee42
+
+    img.src ="imageness/Test.png";
+
 
 
     img.onload = function(){
@@ -122,11 +122,11 @@ function a() {
 
 
     var img = new Image();
-<<<<<<< HEAD
+
     img.src = "imageness/Test.png ";
-=======
-    img.src = "imageness/test.png";
->>>>>>> ad2a3be37b3cc68a6b3b23eb4756d032b773ee42
+
+    img.src = "imageness/Test.png";
+
 
 
     img.onload = function(){
@@ -149,8 +149,7 @@ function a() {
 function porcentaje() {
 
     respuesta=document.getElementById("f1").value;
-<<<<<<< HEAD
-=======
+
 
 
 
@@ -165,7 +164,7 @@ function porcentaje() {
 
     return Total;
 }
->>>>>>> ad2a3be37b3cc68a6b3b23eb4756d032b773ee42
+
 
 /**
  * Grafico
@@ -176,7 +175,7 @@ function porcentaje() {
 
 function Grafico(respuesta) {
 
-<<<<<<< HEAD
+
     if (respuesta<=0) Total = 0;
 
     if (respuesta = 1) Total = 20;
@@ -198,8 +197,7 @@ function Grafico(respuesta) {
 
 function Grafico(respuesta) {
 
-=======
->>>>>>> ad2a3be37b3cc68a6b3b23eb4756d032b773ee42
+
 
     var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
@@ -232,13 +230,9 @@ function Grafico(respuesta) {
  * @method limpiarCanvas
  * @return
  */
-function limpiarCanvas(){
+function limpiarCanvas() {
     var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
 
     canvas.width = canvas.width;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ad2a3be37b3cc68a6b3b23eb4756d032b773ee42
