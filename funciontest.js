@@ -118,7 +118,7 @@ function a() {
 
 
     var img = new Image();
-    img.src = "images/test.png";
+    img.src = "imageness/test.png ";
 
 
     img.onload = function(){
