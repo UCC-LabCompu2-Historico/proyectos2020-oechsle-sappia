@@ -90,7 +90,7 @@ function db(posX, posY) {
 
 
     var img = new Image();
-    img.src ="imageness/test.png";
+    img.src ="imageness/Test.png";
 
 
     img.onload = function(){
@@ -118,7 +118,7 @@ function a() {
 
 
     var img = new Image();
-    img.src = "imageness/test.png ";
+    img.src = "imageness/Test.png ";
 
 
     img.onload = function(){
